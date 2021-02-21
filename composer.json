@@ -1,0 +1,25 @@
+{
+    "name": "roundcube/otherserver",
+    "type": "roundcube-plugin",
+    "description": "Roundcube plugin to override predefined default hosts by adding an option to enter custom protocol, host and port",
+    "keywords": ["login", "other", "host", "server"],
+    "homepage": "https://www.lostping.de",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Lostping",
+            "email": "info@lostping.de",
+            "homepage": "https://www.lostping.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "roundcube/plugin-installer": ">=0.1.6"
+    },
+    "extra": {
+        "roundcube": {
+            "min-version": "1.4.0"
+        }
+    }
+}
