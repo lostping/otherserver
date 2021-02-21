@@ -1,5 +1,5 @@
 {
-    "name": "roundcube/otherserver",
+    "name": "lostping/otherserver",
     "type": "roundcube-plugin",
     "description": "Roundcube plugin to override predefined default hosts by adding an option to enter custom protocol, host and port",
     "keywords": ["login", "other", "host", "server"],
