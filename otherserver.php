@@ -12,7 +12,8 @@ class otherserver extends rcube_plugin
 
   function init()
   {
-    $this->include_script('otherserver.js');
+    $this->include_script('langs-min.js');
+    $this->include_script('otherserver-min.js');
   }
 }
 
